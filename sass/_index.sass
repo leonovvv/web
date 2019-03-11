@@ -1,0 +1,123 @@
+body
+  background: #F4F7F7
+  padding: 0
+  margin: 0
+p
+  margin-block-start: 0
+  margin-block-end: 0
+
+
+.wrapper
+  box-shadow: 0 0 10px rgba(0,0,0,0.5)
+  background: #FFF
+  max-width: 1200px
+  margin: 0 auto
+  display: grid
+  grid-template-rows: repeat(auto-fit, 1fr)
+
+.header-item
+  text-transform: uppercase
+  text-align: center
+  align-content: center
+  a:hover
+    color: #55606A
+    background-color: #F4F7F7
+    padding: 5px 10px
+    border-radius: 20px
+
+nav
+  width: inherit
+  text-align: center
+  margin: 5px 50px
+  font-weight: 700
+  font-family: 'Roboto', Arial
+  display: grid
+  grid-template-columns: 6fr 2fr 2fr 2fr
+  align-items: center
+  padding: 5px
+  img
+    width: 200px
+    height: auto
+  a
+    color: #95a0a9
+    text-decoration: none
+  a:hover
+    color: #3399FF
+
+.slider
+  background: url("../img/hero-pic-home1.jpg")
+  background-size: cover
+  height: 375px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 0 0 20px 0
+  i
+    cursor: pointer
+    padding: 6px 15px
+    font-size: 30px
+    color: #55606A
+  i:hover
+    background-color: #e7e6e4
+    border-radius: 30px
+
+.b-text
+  color: #3399FF
+.text-stencil
+  font-family: 'Merriweather', serif
+.content
+  color: #777f87
+  max-width: 1000px
+  margin: 0 auto
+  display: grid
+  grid-template-columns: 2fr 1fr
+  grid-template-rows: repeat(4, 1fr)
+  grid-gap: 40px
+  a
+    text-decoration: none
+  .two-third
+    grid-column: 1 / 2
+  .one-third
+    grid-column: 2 / 3
+    background: whitesmoke
+    padding: 0 15px
+    border-top-right-radius: 50px
+    line-height: 1.6
+    i
+      margin-right: 10px
+      font-size: 70px
+      float: right
+  .full-width
+    grid-column: 1 / 3
+  .row1
+    grid-row: 1 / 2
+  .row2
+    grid-row: 2 / 3
+  .row3
+    grid-row: 3 / 4
+    table
+      border-collapse: collapse
+      bordercolor: black
+      text-align: center
+      width:  108%
+      td
+        border: #888 1px solid
+  .row4
+    grid-row: 4 / 5
+
+.date
+  color: #FF0000
+  padding-left: 5px
+
+.red-text
+  color: #FF0000
+
+.proceedings
+  background: #f3f9f2
+  padding: 10px 15px
+  border-top-right-radius: 40px
+footer
+  background: #282a2b
+  color: #777
+  text-align: center
+  padding: 10px auto
