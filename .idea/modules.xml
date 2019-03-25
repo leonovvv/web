@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WebProj.iml" filepath="$PROJECT_DIR$/.idea/WebProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WEB-labs-With-Gulp.iml" filepath="$PROJECT_DIR$/.idea/WEB-labs-With-Gulp.iml" />
     </modules>
   </component>
 </project>
