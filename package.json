@@ -1,25 +1,32 @@
 {
-  "name": "marvel-with-gulp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "clean": "gulp clean",
-    "start": "npm run clean && gulp sass && gulp sass:watch",
-    "cmq": "gulp combineMq"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-combine-mq": "^0.4.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4",
-    "node-sass": "^4.11.0"
-  },
+  "name": "phone-catalog",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "pug": "^2.0.3"
+    "node-sass": "^4.11.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "json-loader": "^0.5.7"
   }
 }
